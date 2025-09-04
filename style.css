@@ -1,0 +1,496 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background: #f1f3f5;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  z-index: 1000;
+}
+
+#fake {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 244, 245);
+  width: 500px;        
+  height: 40px;
+  border-radius: 9px;
+  padding: 0 15px;
+  margin: 0 20px;      
+}
+
+
+
+
+#fake {
+  display: flex;
+  align-items: center;
+ 
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+
+.search {
+  display: flex;
+  align-items: center;         
+  justify-content: flex-start;  
+  background-color: rgb(243, 244, 245);
+  width: 700px;                 
+  height: 45px;         
+
+  border-radius: 9px;
+  margin: 100px;
+  margin: 50px;
+  padding: 0 15px;
+  font-weight: 50;
+}
+.text{
+    cursor: pointer;
+
+}
+.login{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: -30px;
+    
+}
+.login img {
+      height: 20px;
+      width: 20px;
+    }
+
+.login:hover{
+    background: rgb(64, 64, 227);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login i.ri-arrow-down-s-line {
+  transition: transform 0.3s ease;
+}
+
+.login:hover i.ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+.cart{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.cart img {
+      height: 20px;
+      width: 20px;
+    }
+.seller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.seller img{
+     height: 22px;
+     width: 22px;
+
+}    
+.point {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;              
+  border-radius: 5px ;        
+  
+  margin-left: 100px;
+  
+}
+
+.point img {
+  height: 25px;
+  width: 25px;
+}     
+
+.point:hover {
+  background-color: rgb(241, 236, 236);
+  border: 2px solid gray;
+}
+.header2 {
+  position: absolute;
+  width: 98%;
+  height: 17%;
+  margin-top: 80px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+
+.min{
+   display: flex;
+  flex-direction: column;
+  align-items: center; /* centers image above text */
+  margin: 0;
+    cursor: pointer;
+    margin-left: 150px;
+}
+.min p{
+    font-weight: 550;
+margin-top: 6px;
+
+}
+.phone {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* centers image above text */
+      margin: 0;
+      cursor: pointer;
+}
+.phone img{
+    margin-left: 20px;
+}
+.phone p{
+    font-weight: 550;
+    margin-top: 6px;
+    
+}
+.fashion{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0;
+    cursor: pointer;
+    
+}
+.fashion img{
+    width: 60px;
+    height: 60px;    
+}
+.fashion p:hover{
+  color: rgb(3, 3, 209);
+}
+.fashion i.ri-arrow-down-s-line {
+  display: inline-block; 
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.fashion p:hover i.ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+
+
+.fashion p {
+    
+    margin-top: 9px;
+    font-weight: 550;
+    
+}
+.electonics{
+  cursor: pointer;
+}
+.electonics img{
+    width: 50px;
+    height: 50px;
+    margin-left: 14px;
+}
+.electonics p{
+  margin-top: 13px;
+  font-weight: 550;
+}
+.electonics:hover{
+  color: rgb(3, 3, 209);
+
+}
+.electonics i.ri-arrow-down-s-line {
+  display: inline-block; 
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.electonics p:hover i.ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+.Furniture img{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+.Furniture p{
+  margin-top: 10px;
+  font-weight: 550;
+}
+.Furniture:hover{
+  color: rgb(3, 3, 209);
+
+}
+.Furniture i.ri-arrow-down-s-line {
+  display: inline-block; 
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.Furniture p:hover i.ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+.appliances{
+  margin-bottom: 5px;
+  font-weight: 540;
+}
+.appliances img{
+  margin-left: 25px;
+  margin-top: 5px;
+}
+.appliances p{
+  margin-bottom: 6px;
+  font-weight: 550;
+}
+.appliances:hover{
+  color: rgb(3, 3, 209);
+}
+.flight p{
+  margin-bottom: 10px;
+  font-weight: 550;}
+.flight img{
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+.flight:hover{
+  color: rgb(3, 3, 209);
+}
+.Beauty img{
+    width: 50px;
+    height: 50px;
+}
+.Beauty p{
+  margin-top: 15px;
+  font-weight: 550;
+}
+.Beauty img{
+  margin-left: 15px;
+}
+.Beauty:hover{
+  color: rgb(3, 3, 209);
+
+}
+.Beauty i.ri-arrow-down-s-line {
+  display: inline-block; 
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.Beauty p:hover i.ri-arrow-down-s-line {
+  transform: rotate(180deg);
+}
+.Grocery{
+  margin-right: 150px;
+}
+.Grocery p {
+  margin-bottom: 1px;
+  font-weight: 550;
+}
+.Grocery:hover{
+  color: rgb(3, 3, 209);
+}
+
+.header3{
+  margin-top: 220px;
+  position: absolute;
+  width: 98%;
+  height: 39%;
+  background-color:white;
+  margin-left: 15px;
+  margin-right: 10px;
+  
+}
+.images {
+  position: relative;   
+  margin-top: 0;
+  height: 90%;
+  width: 100%;          
+  max-width: 1605px;    
+  overflow: hidden;     
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;     
+  position: relative;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    
+  object-position: center;
+  display: block;
+}
+#last {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; 
+ gap: 10px;
+}
+
+.header4 {
+  width: 1350px;
+  background-color: white;
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;             
+  flex-wrap: wrap;
+  cursor: pointer;
+  
+}
+
+.title {
+  padding-left: 15px;
+  margin-bottom: 20px;   
+}
+
+.title h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.earbuds img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+margin-left: 40px;
+}
+.earbuds:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.projector img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+}
+.projector:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.camera img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+}
+.camera:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.watch img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+}
+.watch:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.television img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+}
+.television:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.printer img{
+height: 150px;
+width: 90px;
+margin-top: 30px;
+}
+.printer:hover{
+  transform: translateY(-10px);
+  box-shadow: 10px 20px 30px rgba(0,0,0,0.3);
+  
+}
+.rectangle{
+  display: flex;
+  width: 15%;
+  height: 350px;
+  background-color: rgb(154, 33, 33);
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.rectangle img{
+  height: 350px;
+  width: 430px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+ 
+   
+
+
