@@ -17,7 +17,8 @@ This project replicates the design and structure of Flipkart's homepage, includi
 ## 🖼️ Screenshots
 
 ### Homepage
-![Homepage Screenshot]()
+![Homepage Screenshot](https://github.com/user-attachments/assets/55aa0e92-3a4c-434b-b840-f7aab7c217e5
+)
 
 
 
