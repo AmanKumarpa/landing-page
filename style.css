@@ -36,30 +36,8 @@ html, body {
   align-items: center;
   justify-content: space-between; 
   width: 100%;
-}
-
-.search {
-  display: flex;
-  align-items: center;
-  background-color: rgb(243, 244, 245);
-  width: 500px;        
-  height: 40px;
-  border-radius: 9px;
-  padding: 0 15px;
-  margin: 0 20px;      
-}
-
-
-
-
-#fake {
-  display: flex;
-  align-items: center;
- 
-  width: 100%;
   padding: 0 20px;
 }
-
 
 .logo {
   display: flex;
@@ -70,8 +48,8 @@ html, body {
   height: 40px;
   width: auto;
   object-fit: contain;
-}
 
+}
 
 .search {
   display: flex;
@@ -79,36 +57,35 @@ html, body {
   justify-content: flex-start;  
   background-color: rgb(243, 244, 245);
   width: 700px;                 
-  height: 45px;         
+  height: 45px; 
 
   border-radius: 9px;
-  margin: 100px;
+
   margin: 50px;
   padding: 0 15px;
   font-weight: 50;
 }
-.text{
-    cursor: pointer;
 
+.text {
+  cursor: pointer;
 }
-.login{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-left: -30px;
-    
+
+.login {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: -30px;
 }
 .login img {
-      height: 20px;
-      width: 20px;
-    }
-
-.login:hover{
-    background: rgb(64, 64, 227);
-    color: white;
-    padding: 10px 10px;
-    border-radius: 10px;
-    cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.login:hover {
+  background: rgb(64, 64, 227);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .login i.ri-arrow-down-s-line {
   transition: transform 0.3s ease;
@@ -117,50 +94,53 @@ html, body {
 .login:hover i.ri-arrow-down-s-line {
   transform: rotate(180deg);
 }
-.cart{
-    margin: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
+
+.cart {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
 }
 .cart img {
-      height: 20px;
-      width: 20px;
-    }
-.seller{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  height: 20px;
+  width: 20px;
 }
-.seller img{
-     height: 22px;
-     width: 22px;
 
-}    
+.seller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.seller img {
+  height: 22px;
+  width: 22px;
+}
+
 .point {
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;              
-  border-radius: 5px ;        
-  
+  border-radius: 5px ;   
+
   margin-left: 100px;
-  
+
 }
 
 .point img {
   height: 25px;
   width: 25px;
-}     
-
+}
 .point:hover {
   background-color: rgb(241, 236, 236);
   border: 2px solid gray;
 }
+
+
 .header2 {
   position: absolute;
   width: 98%;
@@ -177,47 +157,47 @@ html, body {
 
 }
 
-.min{
-   display: flex;
+.min {
+  display: flex;
   flex-direction: column;
-  align-items: center; /* centers image above text */
-  margin: 0;
-    cursor: pointer;
-    margin-left: 150px;
+  align-items: center;
+  margin-left: 150px;
+  cursor: pointer;
 }
-.min p{
-    font-weight: 550;
-margin-top: 6px;
+.min p {
+  font-weight: 550;
+  margin-top: 6px;
+}
 
-}
 .phone {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* centers image above text */
-      margin: 0;
-      cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
-.phone img{
-    margin-left: 20px;
+.phone img {
+  margin-left: 20px;
 }
-.phone p{
-    font-weight: 550;
-    margin-top: 6px;
-    
+.phone p {
+  font-weight: 550;
+  margin-top: 6px;
 }
-.fashion{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    margin: 0;
-    cursor: pointer;
-    
+
+.fashion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  cursor: pointer;
 }
-.fashion img{
-    width: 60px;
-    height: 60px;    
+.fashion img {
+  width: 60px;
+  height: 60px;    
 }
-.fashion p:hover{
+.fashion p {
+  margin-top: 9px;
+  font-weight: 550;
+}
+.fashion p:hover {
   color: rgb(3, 3, 209);
 }
 .fashion i.ri-arrow-down-s-line {
@@ -230,26 +210,19 @@ margin-top: 6px;
   transform: rotate(180deg);
 }
 
-
-.fashion p {
-    
-    margin-top: 9px;
-    font-weight: 550;
-    
-}
-.electonics{
+.electonics {
   cursor: pointer;
 }
-.electonics img{
-    width: 50px;
-    height: 50px;
-    margin-left: 14px;
+.electonics img {
+  width: 50px;
+  height: 50px;
+  margin-left: 14px;
 }
-.electonics p{
+.electonics p {
   margin-top: 13px;
   font-weight: 550;
 }
-.electonics:hover{
+.electonics:hover {
   color: rgb(3, 3, 209);
 
 }
@@ -262,19 +235,21 @@ margin-top: 6px;
 .electonics p:hover i.ri-arrow-down-s-line {
   transform: rotate(180deg);
 }
-.Furniture img{
-    width: 50px;
-    height: 50px;
-    margin-left: 25px;
+
+.Furniture img {
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
 }
-.Furniture p{
+.Furniture p {
   margin-top: 10px;
   font-weight: 550;
 }
-.Furniture:hover{
+.Furniture:hover {
   color: rgb(3, 3, 209);
 
 }
+
 .Furniture i.ri-arrow-down-s-line {
   display: inline-block; 
   transition: transform 0.3s ease;
@@ -284,46 +259,49 @@ margin-top: 6px;
 .Furniture p:hover i.ri-arrow-down-s-line {
   transform: rotate(180deg);
 }
-.appliances{
+
+.appliances {
   margin-bottom: 5px;
   font-weight: 540;
 }
-.appliances img{
+.appliances img {
   margin-left: 25px;
   margin-top: 5px;
 }
-.appliances p{
+.appliances p {
   margin-bottom: 6px;
   font-weight: 550;
 }
-.appliances:hover{
+.appliances:hover {
   color: rgb(3, 3, 209);
 }
-.flight p{
+
+.flight p {
   margin-bottom: 10px;
-  font-weight: 550;}
-.flight img{
+  font-weight: 550;
+}
+.flight img {
   margin-left: 10px;
   margin-bottom: 6px;
 }
-.flight:hover{
+.flight:hover {
   color: rgb(3, 3, 209);
 }
-.Beauty img{
-    width: 50px;
-    height: 50px;
+
+.Beauty img {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
 }
-.Beauty p{
+.Beauty p {
   margin-top: 15px;
   font-weight: 550;
 }
-.Beauty img{
-  margin-left: 15px;
-}
-.Beauty:hover{
+.Beauty:hover {
   color: rgb(3, 3, 209);
 
 }
+
 .Beauty i.ri-arrow-down-s-line {
   display: inline-block; 
   transition: transform 0.3s ease;
@@ -333,18 +311,20 @@ margin-top: 6px;
 .Beauty p:hover i.ri-arrow-down-s-line {
   transform: rotate(180deg);
 }
-.Grocery{
+
+.Grocery {
   margin-right: 150px;
 }
 .Grocery p {
   margin-bottom: 1px;
   font-weight: 550;
 }
-.Grocery:hover{
+.Grocery:hover {
   color: rgb(3, 3, 209);
 }
 
-.header3{
+
+.header3 {
   margin-top: 220px;
   position: absolute;
   width: 98%;
@@ -352,8 +332,9 @@ margin-top: 6px;
   background-color:white;
   margin-left: 15px;
   margin-right: 10px;
-  
+
 }
+
 .images {
   position: relative;   
   margin-top: 0;
@@ -378,12 +359,14 @@ margin-top: 6px;
   object-position: center;
   display: block;
 }
+
+
 #last {
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start; 
- gap: 10px;
+  gap: 10px;
 }
 
 .header4 {
@@ -397,7 +380,6 @@ margin-top: 6px;
   gap: 20px;             
   flex-wrap: wrap;
   cursor: pointer;
-  
 }
 
 .title {
@@ -409,64 +391,30 @@ margin-top: 6px;
   font-size: 20px;
   font-weight: 600;
 }
-
-.earbuds img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-margin-left: 40px;
+.earbuds img,
+.projector img,
+.camera img,
+.watch img,
+.television img,
+.printer img {
+  height: 150px;
+  width: 90px;
+  margin-top: 30px;
 }
-.earbuds:hover{
+.earbuds:hover,
+.projector:hover,
+.camera:hover,
+.watch:hover,
+.television:hover,
+.printer:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
-.projector img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-}
-.projector:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-.camera img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-}
-.camera:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-.watch img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-}
-.watch:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-.television img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-}
-.television:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-}
-.printer img{
-height: 150px;
-width: 90px;
-margin-top: 30px;
-}
-.printer:hover{
-  transform: translateY(-10px);
+.printer:hover {
   box-shadow: 10px 20px 30px rgba(0,0,0,0.3);
-  
 }
-.rectangle{
+
+.rectangle {
   display: flex;
   width: 15%;
   height: 350px;
@@ -476,21 +424,118 @@ margin-top: 30px;
   margin-top: 40px;
   margin-left: 20px;
 }
-.rectangle img{
+.rectangle img {
   height: 350px;
   width: 430px;
   object-fit: contain;
 }
 
+@media (max-width: 700px) {
 
+  .header {
+    height: 50px;
+    padding: 0 10px;
+  }
 
+  .search {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    font-size: 14px;
+  }
 
+  .login, .cart, .seller, .point {
+    margin: 0 5px;
+    font-size: 12px;
+  }
 
+  .header2 {
+    flex-wrap: wrap;      
+    height: auto;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 13px;
+    justify-content: center;
+  }
 
+  .min, .phone, .fashion, .electonics, .Furniture,
+  .appliances, .flight, .Beauty, .Grocery {
+    margin: 10px;
+  }
 
+  .min img, .phone img, .fashion img, .electonics img,
+  .Furniture img, .appliances img, .flight img, .Beauty img, .Grocery img {
+    width: 40px;
+    height: 40px;
+  }
 
+  .header3 {
+    margin-top: 160px;
+    width: 100%;
+    height: auto;
+  }
 
- 
-   
+  .images {
+    max-width: 100%;
+    height: auto;
+  }
 
+  .card img {
+    height: auto;
+  }
 
+  #last {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header4 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .earbuds img,
+  .projector img,
+  .camera img,
+  .watch img,
+  .television img,
+  .printer img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .rectangle {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .rectangle img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 5px;
+  }
+
+  .search {
+    width: 95%;
+    margin: 5px 0;
+  }
+
+  .login, .cart, .seller, .point {
+    font-size: 11px;
+  }
+
+  .header2 {
+    font-size: 12px;
+  }
+}
